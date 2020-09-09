@@ -1,9 +1,11 @@
+//*************** Science, DIY And Technology Presents ************** 
+// ************** Smallest code for RO Automation Ever Code *********
 #include <Servo.h>
 
 Servo tap_servo;
 
-int sensor_pin = 8;
-int tap_servo_pin =7;
+int sensor_pin = 2; // ir sensor pin attached
+int tap_servo_pin =3;  //servo motor connected pin
 int val;
 
 void setup()

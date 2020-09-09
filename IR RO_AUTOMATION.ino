@@ -1,5 +1,5 @@
 //*************** Science, DIY And Technology Presents ************** 
-// ************** Smallest code for RO Automation Ever Code *********
+// ************** Smallest code for RO Automation Ever Coded *********
 #include <Servo.h>
 
 Servo tap_servo;
@@ -25,7 +25,7 @@ void loop()
   }
   if (val==1)
   {
-    tap_servo.write(153);
+    tap_servo.write(153);    // Choose  this an
   }
 
 }

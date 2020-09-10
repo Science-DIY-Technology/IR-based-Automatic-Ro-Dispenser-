@@ -21,11 +21,11 @@ void loop()
 
   if (val==0)
   {
-    tap_servo.write(0);
+    tap_servo.write(0);        // Choose  this an angle according to your servo placement and need of degree of turn in your 
   }
   if (val==1)
   {
-    tap_servo.write(153);    // Choose  this an
+    tap_servo.write(153);     // Choose  this an angle according to your servo placement and need of degree of turn in your 
   }
 
 }
